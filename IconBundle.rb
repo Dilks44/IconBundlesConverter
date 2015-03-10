@@ -11,7 +11,7 @@
 #Prints the current directory
 
 
-# get the file extension possibily with regular expressions
+# get the file extension possibly with regular expressions
 
 #FileUtils.cp
 #FileUtils.mv
@@ -124,12 +124,12 @@ def main
 		puts "Thats not a working directory try again"
 		exit(1)
 	elsif (File.directory?("#{ARGV[0]}/Bundles") == false)
-		puts "This directory doesnt seem to have a Bundles Folder"
+		puts "This directory doesn’t seem to have a Bundles Folder"
 	else
 		
 		doWork(ARGV[0])
 		puts
-		puts "Opperation complete!"
+		puts "Operation complete!"
 		puts
 	end
 
